@@ -34,4 +34,5 @@ function changeObj(obj) {
 }
 
 changeObj(obj)
+// 数据发生改变时 会调用 defineProperty 方法 也是 Vue 的双向数据绑定的原理
 obj.name = 'cc'
